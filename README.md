@@ -4,26 +4,26 @@ Discoverer is a prototype supporting the **discovery of educational resources**,
 
 * When activated from a Google™ results page (SERP), Discoverer intercepts the user search keywords and transparently replicates the search in a large hub of educational resources, producing a custom SERP with plenty of educational resources and related (LRMI) educational metadata. 
  
-* When activated while examining an educational resource, Discoverer identifies additional similar resources: “***similar***” according to a strongly domain-oriented similarity metric defined in this project as the number of shared learning objectives (alignments to educational standards).
+* When activated while examining an educational resource, Discoverer identifies, with a Query By Examples approach, additional similar resources. Identified resources are “***similar***” according to a strongly domain-oriented similarity metric defined in this project as the number of shared alignments to educational standards (practically, at the moment,learning objectives).
 
 ---
 
-The system makes transparent use of (sometimes large numbers of) standards alignments without the need for users to be aware of them. 
+The system makes transparent use of (sometimes large numbers of) standard alignments without the need for users to be aware of them. 
 * This makes it possible, among other advantages, to reuse the considerable efforts in aligning resources to educational standards, high-quality crowdsourced curated data, in Countries where formal educational standards are not used.
-* Additionally, this strongly domain-oriented feature is equally important in Countries where educational standards are formally used: here educators should be naturally inclined to consider two resources to be more similar because they have similar learning objectives, rather than just because they happen to share some words.
+* However, this strongly domain-oriented feature is equally important in Countries where educational standards are formally used: here educators are naturally inclined to consider two resources similar, more because they have similar learning objectives, rather than just because they happen to share some words.
 
 ---
 
-Finally, as the system tends to produce a large amount of excessively similar resources, results are clustered in groups of comparable similarity, and just a few representatives for each cluster are presented to users:
-* This helps to provide users with a more comprehensive and representative picture of the whole (potentially large) result-set, or a compressed view.
-* Additionally, this is another  strongly domain oriented feature that supports educators in finding resources for their specific educational needs. For example, while a high degree of similarity might be desirable between a resource used in the main classroom activity and a resource to be used in a remediation activity, a lower degree of similarity, that is a more limited overlap of learning objectives, would be preferable in case the resource was to be used for in-depth activities, to provide students with the opportunity to face new challenges.
+Finally, as the system tends to produce a large amount of excessively similar resources, results are clustered in expandable groups of comparable similarity, and just a few representatives for each cluster are presented to users:
+* This helps to provide users with a more comprehensive and representative picture of the whole (potentially large) result-set: a compressed view, or expandable overview, of the resources.
+* Additionally, this is a strongly domain oriented feature that supports educators in their high-level tasks, that is finding resources for specific educational needs. For example, a high degree of similarity (in terms of learning objectives) is desirable between a resource used in the main classroom activity and a resource to be used in a remediation activity. Yet, a lower degree of similarity, that is a more limited overlap of learning objectives, would be preferable in case the resource was to be used for in-depth activities, in order to offer students the opportunity to face new challenges.
 
 ## Where Discoverer comes from
 Discoverer represents the evolution of previous prototypes, following their evaluation with experienced educators from different Countries, in the context of a rigorous Design Science Research methodology.
 
-* [Injector](https://github.com/renatomario/ERD/blob/master/README.md), an early prototype, identified educational resources within Google™ SERPs, where it injected custom-rich-snippets containing “transparent” expansion functionalities to (or suggestions for) “similar” resources, in addition to LRMI metadata. While that prototype was considered very useful as a proof of concept, it suffered from the limited number of educational resources that could be identified within Google™ SERPs (intrinsic metadata sparsity).
+* [Injector](https://github.com/renatomario/ERD/blob/master/README.md), an early prototype, identified educational resources within Google™ SERPs, where it injected custom-rich-snippets containing “transparent” expansion functionalities to (or suggestions for) “similar” resources, in addition to LRMI metadata. While that prototype was considered very useful as a proof of concept, it suffered from the limited number of educational resources that could be identified within Google™ SERPs (intrinsic sparsity), and the limited resources that could be expanded (metadata sparsity).
 
-* [RepExp](https://github.com/renatomario/RepExp/blob/master/README.md) was a new prototype that solved the problem of sparsity previously identified, by transparently replicating a Google™ search in a large hub of educational resources, and offering again educational metadata and expansion functionalities to similar resources. However, educators were overwhelmed by the large amount of presented results, and concerned about the excessive similarity of the resources identified.
+* [RepExp](https://github.com/renatomario/RepExp/blob/master/README.md) was a new prototype that solved the problem of sparsity previously identified, by transparently replicating a Google™ search in a large hub of educational resources, and offering again educational metadata and expansion functionalities to similar resources. Yet, in that case, educators were overwhelmed by the large amount of results, and concerned about the excessive similarity of the resources identified.
 
 ## Commented screenshots
 
